@@ -5,7 +5,7 @@ cd teste-projeto-modulo-submodulo/ <br>
 git init <br>
 git submodule add https://github.com/sandrooscar/modulo2.git modulo2  #aqui o projeto modulo 2 já precisa ter algum arquivo no repositorio para evitarmos problemas <br>
 git status <br>
-git add .gitmodules modulo2  #incluindo submodulo modulo2 <br>
+git add .gitmodules modulo2  #incluindo submodulo modulo2 #Acredito que quando incluimos o submodule essa linha torna-se desnecessária, já que o .gitmodules é alterado como novo submodulo<br>
 git commit -m "Incluindo submodules" #commit nas alterações do submodulo <br>
 git push origin main <br>
 
